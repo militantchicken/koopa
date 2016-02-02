@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
         :recoverable, :rememberable, :trackable, :validatable
   has_many :user_subs
   has_many :subscriptions
+  has_many :alerts
 end
